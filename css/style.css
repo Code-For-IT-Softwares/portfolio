@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+    padding: 10px 10%;
+    width: 100vw;
+    scrollbar-width: 2px;
+    scrollbar-color: rgba(252, 10, 10, 0) rgba(164, 12, 12, 0);
+    overflow-y: scroll;
+    /* Enable scrolling */
+}
+.grey{
+    color: rgb(162, 162, 162);
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
+.column {
+    display: inline-block;
+    overflow: hidden;
+    height: 100%;
+    width: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+}
+
+p {
+    font-size: 12px;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+.centre{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.bg-blue{
+    background-color: rgb(83, 140, 255);
+}
+.white{
+    color: rgb(255, 255, 255);
+}
+p,h1,h2,h3{
+    text-align: left;
+    font-family: Tahoma, sans-serif;
+}

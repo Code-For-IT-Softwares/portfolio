@@ -1,0 +1,73 @@
+<!-- <link rel="stylesheet" href="../css/Pages/home.css"> -->
+
+<!-- <div id="side-angle-bg"><img src="/Images/images.jpg" alt=""></div> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .button-container {
+      margin: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 5px;
+      cursor: pointer;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .content {
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="button-container">
+    <div class="button" onclick="showData('web')">Web</div>
+    <div class="button" onclick="showData('app')">App</div>
+    <div class="button" onclick="showData('game')">Game</div>
+  </div>
+
+  <div class="content" id="content">
+    <!-- Initial content for web -->
+    <p>Web Data: Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+  </div>
+
+  <script>
+    function showData(category) {
+      // Get the content div
+      const contentDiv = document.getElementById('content');
+
+      // Set content based on the selected category
+      switch (category) {
+        case 'web':
+          contentDiv.innerHTML = '<p>Web Data: Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>';
+          break;
+        case 'app':
+          contentDiv.innerHTML = '<p>App Data: Fusce gravida, nisi vel fermentum vestibulum, purus felis commodo quam. </p>';
+          break;
+        case 'game':
+          contentDiv.innerHTML = '<p>Game Data: Integer auctor efficitur elit vitae tincidunt. Sed at erat tristique, dapibus dolor at, posuere massa. </p>';
+          break;
+        default:
+          contentDiv.innerHTML = '<p>No data available.</p>';
+      }
+    }
+  </script>
+
+</body>
+</html>

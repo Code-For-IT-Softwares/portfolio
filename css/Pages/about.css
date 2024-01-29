@@ -1,0 +1,103 @@
+#about{
+    /* height: 65vh; */
+    width: 80vw;
+    /* background-color: aqua; */
+    position: relative;
+    margin-bottom: 3%;
+}
+
+.about-content{
+    /* background-color: blueviolet; */
+    /* height: 50vh; */
+    display: flex;
+    /* justify-content:space-evenly ; */
+    /* width: 22vw; */
+    padding: 10px 10px;
+    justify-content: start;
+    /* align-items: flex-start; */
+}
+
+
+.about-upper-photos{
+    width: 300px;
+    display: flex;
+    /* height: 30px; */
+    
+}
+
+.border-radius{
+    border-radius: 8px;
+}
+.square-box{
+    height: 130px;
+    width: 120px;
+    /* background-color: red; */
+    overflow: hidden;
+    margin-left: 5%;
+    /* display: inline; */
+    position: relative;
+    /* padding: 2%; */
+}
+
+.square-box img{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+.rectangle-box{
+    height: 100px;
+    width: 253px;
+    /* background-color: red; */
+    margin-left: 5%;
+    margin-top: 5%;
+    overflow: hidden;
+}
+.rectangle-box img{
+    height: 200px;
+    width: 253px;
+}
+.about-text-container{
+    width: 350px;
+    /* background-color: darkgoldenrod; */
+    overflow: visible;
+    height: 170px;
+    margin: 20px 15px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.about-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.about-description{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#about-button{
+    position: relative;
+    top:  40%;
+    left: 10px;
+}
+
+.bottom{
+    /* background-color: paleturquoise; */
+    display: inline-block;
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    
+}
+
+.triangle-down {
+    margin: 50% auto;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent; /* Half of the desired base width */
+    border-right: 3px solid transparent; /* Half of the desired base width */
+    border-top: 3px solid rgb(255, 255, 255); /* Height of the triangle */
+  }

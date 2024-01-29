@@ -1,0 +1,191 @@
+#product {
+    width: 80vw;
+    /* height: 80vh; */
+    /* background-color: aqua; */
+    position: relative;
+    /* flex-wrap: nowrap; */
+    margin-bottom: 1%;
+    /* display: flex; */
+}
+
+.product-content {
+    /* background-color: blueviolet; */
+    height: 59vh;
+    display: flex;
+    /* justify-content:space-evenly ; */
+    /* width: 22vw; */
+    padding: 10px 0px;
+    justify-content: start;
+    /* align-items: flex-start; */
+}
+
+#product-tab {
+    /* background-color: aqua; */
+    /* overflow: visible; */
+    /* position: relative; */
+    margin-left: 3%;
+    /* left; */
+
+}
+
+.about-text-container {
+    width: 350px;
+    /* background-color: darkgoldenrod; */
+    overflow: visible;
+    height: 170px;
+    margin: 20px 15px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.about-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.about-description {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#about-button {
+    position: relative;
+    top: 40%;
+    left: 10px;
+}
+
+.bottom {
+    /* background-color: paleturquoise; */
+    display: inline-block;
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+
+}
+
+.triangle-down {
+    margin: 50% auto;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    /* Half of the desired base width */
+    border-right: 3px solid transparent;
+    /* Half of the desired base width */
+    border-top: 3px solid rgb(255, 255, 255);
+    /* Height of the triangle */
+}
+
+.triangle-left {
+    margin: auto auto;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    /* Half of the desired base width */
+    border-right: 3px solid transparent;
+    /* Half of the desired base width */
+    border-top: 3px solid rgb(0, 0, 0);
+    transform: rotate(90deg);
+    /* Height of the triangle */
+}
+
+.triangle-right {
+    margin: auto auto;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    /* Half of the desired base width */
+    border-right: 3px solid transparent;
+    /* Half of the desired base width */
+    border-top: 3px solid rgb(0, 0, 0);
+    transform: rotate(-90deg);
+    /* Height of the triangle */
+}
+.card {
+    width: 150px;
+    height: 250px;
+    /* background-color: brown; */
+    margin: 0%  10px 0% 10px;
+    padding: 1.5% 2%;
+    display: inline-block;
+    position: relative;
+    white-space: wrap;
+    flex: 0 0 130px;
+}
+
+.card .button {
+    position: absolute;
+    /* top: 0px; */
+    /* left: 0; */
+    bottom: 20px;
+    /* font-size: 11px; */
+    /* margin: 15px auto 10px auto; */
+}
+
+.card .button p{
+    font-size: 11px;
+}
+
+.black-txt {
+    color: black;
+}
+
+
+
+.card .circle-logo{
+    position: absolute;
+    right: 14px;
+}
+
+.client-logo{
+    width: 100px;
+    height: 40px;
+    margin: auto;
+    /* background-color: orange; */
+}
+
+.client-name {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.border{
+    border: 2px solid rgb(202, 202, 202);
+}
+
+.product-change-btn{
+    position: absolute;
+    /* margin-left: 220px; */
+    bottom: 20px;
+    left: 11%;
+    z-index: 1;
+}
+
+#next{
+    margin-left: 12px;
+    border: 1px 20px solid gray;
+}
+
+#prev{
+    /* margin-left: 12px; */
+    border: 1px 20px solid gray;
+}
+
+.horizontal-scroll{
+    width: 64%;
+    white-space: nowrap;
+    position: relative;
+    overflow-x: scroll;
+    margin-left: 20px;
+}
+.horizontal-scroll::-webkit-scrollbar{
+    width: 0px;
+}
+
+.horizontal-scroll-wrapper{
+    margin: 2px 0px;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
